@@ -1,4 +1,4 @@
-# Window Scraper
+# Email Scrapper 
 
 ## Introduction
 This repository contains two Python scripts, `a.py` and `window_scrapper.py`, which utilize the `pygetwindow` library to interact with open windows.
