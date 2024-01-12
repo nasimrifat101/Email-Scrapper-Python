@@ -20,9 +20,15 @@ def get_emails_from_browser_tab():
     return emails
 
 # Activate the browser tab where your Google Sheets document is opened
-# Replace 'Google Sheets' with the title of your browser tab
+
+
+
+# Replace 'Google Sheets' with the title of your browser tab which you got from running a.py script.
+
 window = gw.getWindowsWithTitle('Google Sheets')[0]
 window.activate()
+
+
 
 # Get emails from the active browser tab
 emails = get_emails_from_browser_tab()
